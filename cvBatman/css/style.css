@@ -1,0 +1,49 @@
+body{
+    font-family: Times New Roman;
+}
+
+header{
+    background-color: #E5E5E5;
+}
+
+header div{
+    display: flex;
+    justify-content: center;
+}
+
+header .title-header{
+    background: #C4C4C4;
+    color: #005677;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+main h3{
+    background: #C4C4C4;
+    color: #005677;
+}
+
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+
+footer{
+    background-color: #005677;
+    color: white;
+}
+
+footer div{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+footer a{
+    text-align: white;
+}

@@ -1,0 +1,105 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header div.barraNegra {
+    height: 20px;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    top: 0px;
+    width: 100%;
+}
+
+header div.barraNegra div.texto {
+    font-size: 10px;
+    margin-top: 4px;
+}
+
+header div.barraNegra div.opciones a {
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+header div.navbar {
+    width: 100%;
+    background-color: #F0A83E;
+    height: 62px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header div.navbar div.secciones {
+    margin-top: 18px;
+}
+
+header div.navbar div.icono {
+    margin-top: 18px;
+}
+
+header div.navbar div.secciones a {
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+}
+
+header div.navbar div.secciones a i {
+    margin: 4px;
+}
+
+
+main img.imgPrincipal {
+    display: flex;
+    width: 100%;
+}
+
+main div.banner {
+    background-image: url("../img/FotoPrincipal.png");
+    background-size: cover;
+    height: 409px;
+}
+
+main div.banner div.parteSlide{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    right: 10%;
+    top: 35%;
+}
+
+main div.banner div.parteSlide p.titulo {
+    font-size: 30px;
+    width: 365px;
+    height: 54px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #3C2313;
+    margin: 0;
+}
+
+main div.banner div.parteSlide p.subtitulo {
+    font-size: 16px;
+    width: 190px;
+    height: 19px;
+    color: #3C2313;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main div.banner div.parteSlide button {
+    font-size: 16px;
+    color: white;
+    width: 141px;
+    height: 49px;
+    background-color: #F0A83E;
+    border-radius: 5px;
+    border: 0px;
+}
